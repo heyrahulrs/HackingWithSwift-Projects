@@ -17,3 +17,7 @@
 5. [Project5](/Project5): Word Scramble
 
 > What I learned: firstIndex(of:), UITextChecker, NSRange
+
+6. [Project6](/Project6): Auto Layout
+
+> What I learned: NSLayoutConstraint, Visual Format Language
