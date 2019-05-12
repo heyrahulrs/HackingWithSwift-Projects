@@ -21,3 +21,7 @@
 6. [Project6](/Project6): Auto Layout
 
 > What I learned: NSLayoutConstraint, Visual Format Language
+
+7. [Project7](/Project7): Whitehouse Petitions
+
+> What I learned: JSONDecoder, Codable, webView.loadHTMLString()
