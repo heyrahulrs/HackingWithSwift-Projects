@@ -25,3 +25,7 @@
 7. [Project7](/Project7): Whitehouse Petitions
 
 > What I learned: JSONDecoder, Codable, webView.loadHTMLString()
+
+8. [Project8](/Project8): 7 Swifty Words
+
+> What I learned: Content Hugging Priority, Content Compression Resistance, UIButton.addTarget(), Array.joined(), Property Observers, String.trimmingCharacters(in:)
