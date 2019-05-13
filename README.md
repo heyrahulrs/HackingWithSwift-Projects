@@ -6,7 +6,7 @@
 
 2. [Project2](/Project2): Guess The Flag
 
-3. [Project3](/Project3): Storm Viewer & Guess The Flag with social media sharing
+3. [Project3](/Project3): Storm Viewer & Guess The Flag (with social media sharing)
 
 > What I learned: UIActivityViewController
 
@@ -29,3 +29,7 @@
 8. [Project8](/Project8): 7 Swifty Words
 
 > What I learned: Content Hugging Priority, Content Compression Resistance, UIButton.addTarget(), Array.joined(), Property Observers, String.trimmingCharacters(in:)
+
+9. [Project9](/Project9): Modified Project1, Project7, Project8 (to do work on background thread)
+
+> What I learned: Grand Central Dispatch (GCD), DispatchQueue (async(), global(), main), performSelector(inBackground:), performSelector(onMainThread:)

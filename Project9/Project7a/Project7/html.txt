@@ -1,0 +1,15 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body {
+        font-size: 120%;
+        font-family: -apple-system;
+        margin: 18px;
+    }
+</style>
+</head>
+<body>
+    selectedPetition
+</body>
+</html>
