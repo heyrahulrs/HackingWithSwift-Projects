@@ -6,7 +6,7 @@
 
 2. [Project2](/Project2): Guess The Flag
 
-3. [Project3](/Project3): Storm Viewer & Guess The Flag (with social media sharing)
+3. [Project3](/Project3):Modified Project1, Project2 (with social media sharing)
 
 > What I learned: UIActivityViewController
 
@@ -33,3 +33,7 @@
 9. [Project9](/Project9): Modified Project1, Project7, Project8 (to do work on background thread)
 
 > What I learned: Grand Central Dispatch (GCD), DispatchQueue (async(), global(), main), performSelector(inBackground:), performSelector(onMainThread:)
+
+10. [Project10](/Project10): Names to Faces
+
+> What I learned: UICollectionView, UIImagePickerController, Data.write(to:), UIImage(contentsOfFile:)
