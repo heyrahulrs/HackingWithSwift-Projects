@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8Gq-7r-aOl">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Germany-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="o0h-Vq-SOb">
+                                <rect key="frame" x="87.666666666666686" y="281" width="200" height="356"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFJ-9T-v2i">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="WFJ-9T-v2i" secondAttribute="height" multiplier="2:1" id="7rZ-h2-GEO"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="USA">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapCountryFlag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lQ8-pU-gSK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hwe-bN-rkZ">
+                                        <rect key="frame" x="0.0" y="128" width="200" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="hwe-bN-rkZ" secondAttribute="height" multiplier="2:1" id="84C-Hg-EFz"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="germany">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapCountryFlag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TJE-1h-snp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="24H-Zp-IBR">
+                                        <rect key="frame" x="0.0" y="256" width="200" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="24H-Zp-IBR" secondAttribute="height" multiplier="2:1" id="DH1-cg-Jod"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="spain">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapCountryFlag:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ssE-Nc-Sk1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="o0h-Vq-SOb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aBb-XG-YDm"/>
+                            <constraint firstItem="o0h-Vq-SOb" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="aWH-Hf-jDV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="o0h-Vq-SOb" secondAttribute="bottom" constant="20" id="cY9-cw-upI"/>
+                            <constraint firstItem="o0h-Vq-SOb" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="hGS-bx-2bL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Germany" id="nRA-ia-Xo1">
+                        <barButtonItem key="rightBarButtonItem" title="Show Score" id="MDr-5f-ijQ">
+                            <connections>
+                                <action selector="didTapShowScoreButton" destination="BYZ-38-t0r" id="0aq-qc-qnC"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="button1" destination="WFJ-9T-v2i" id="Gxg-3I-OlU"/>
+                        <outlet property="button2" destination="hwe-bN-rkZ" id="hEs-Uw-WBa"/>
+                        <outlet property="button3" destination="24H-Zp-IBR" id="Iaa-3u-pPP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="99.776785714285708"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="baq-FV-Am7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8Gq-7r-aOl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="rnD-zk-vKe">
+                        <rect key="frame" x="0.0" y="44" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Ioa-YV-fnf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WmW-sg-UCg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="174" y="100"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="USA" width="200" height="100"/>
+        <image name="germany" width="200" height="100"/>
+        <image name="spain" width="200" height="100"/>
+    </resources>
+</document>

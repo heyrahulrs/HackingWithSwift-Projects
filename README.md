@@ -41,3 +41,7 @@
 11. [Project11](/Project11): Pachinko
 
 > What I learned: SpriteKit, SKNode, SKPhysicsBody, SKAction, SKEmitterNode, SpriteKit Particle Emitter Editor in Xcode
+
+12. [Project12](/Project12): Modified Project1, Project2, Project5, Project10 (to save data on device)
+
+> What I learned: UserDefaults, NSCoding, NSKeyedArchiver, NSKeyedUnarchiver, Codable, JSONEncoder, JSONDecoder
