@@ -49,3 +49,7 @@
 13. [Project13](/Project13): Instafilter
 
 > What I learned: CoreImage, CIImage, CIContext, CIFilter, CGImage, UIImageWriteToSavedPhotosAlbum, UISlider
+
+14. [Project14](/Project14): Whack a Penguin
+
+> What I learned: SKCropNode, SKTexture, SKAction,  asyncAfter()
