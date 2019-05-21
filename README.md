@@ -52,4 +52,4 @@
 
 14. [Project14](/Project14): Whack a Penguin
 
-> What I learned: SKCropNode, SKTexture, SKAction,  asyncAfter()
+> What I learned: SKCropNode, SKTexture, SKAction, asyncAfter()
