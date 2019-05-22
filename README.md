@@ -53,3 +53,7 @@
 14. [Project14](/Project14): Whack a Penguin
 
 > What I learned: SKCropNode, SKTexture, SKAction, asyncAfter()
+
+15. [Project15](/Project15): Animation
+
+> What I learned: CGAffineTransform, UIView.animate(withDuration:)
