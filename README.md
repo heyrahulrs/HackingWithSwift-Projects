@@ -57,3 +57,7 @@
 15. [Project15](/Project15): Animation
 
 > What I learned: CGAffineTransform, UIView.animate(withDuration:)
+
+16. [Project16](/Project16): Capital Cities
+
+> What I learned: MapKit, MKMapView, CLLocationCoordinate2D, MKAnnotation, MKPinAnnotationView, MKPinAnnotationView Callout Accessory View, mapView(viewFor:), mapView(calloutAccessoryControlTapped:)
